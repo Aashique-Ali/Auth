@@ -7,6 +7,7 @@ const Dashboard = () => {
   return (
     <>
       <Navbar />
+
       <div className="w-full bg-green-600 h-[100vh] flex flex-col justify-center items-center">
         <h1 className="text-2xl">Welcome to Dashboard </h1>
         <h1 className="text-4xl text-white">{currentUser?.username}</h1>
